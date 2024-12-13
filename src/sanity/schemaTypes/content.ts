@@ -1,5 +1,5 @@
 import { Rule } from "sanity";
-export default {
+const content = {
   name: "content",
   type: "document",
   title: "Content Block",
@@ -45,3 +45,5 @@ export default {
     },
   ],
 };
+
+export default content;

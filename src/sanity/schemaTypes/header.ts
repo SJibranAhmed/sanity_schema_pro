@@ -1,4 +1,4 @@
-export default {
+const header = {
   name: "header",
   type: "document",
   title: "Header Contact",
@@ -15,3 +15,5 @@ export default {
     },
   ],
 };
+
+export default header;
